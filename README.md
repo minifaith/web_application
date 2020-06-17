@@ -1,4 +1,4 @@
-# Training Web Application
+Сайт Vulkan Soft
 
 Technologies:
 - Java 8;
