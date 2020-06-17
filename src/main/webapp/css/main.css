@@ -1,0 +1,284 @@
+/* basic rules */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*first screen*/
+.header {
+    background: #bba3de;
+    color: #000;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.menu {
+
+}
+
+.menu__item {
+    margin: 0 35px;
+}
+
+.menu__item a {
+    font-size: 28px;
+    font-weight: 300;
+    color: #000;
+}
+
+.login {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.login a {
+    font-size: 28px;
+    font-weight: 300;
+    color: #000;
+}
+
+.login a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__item a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main__title {
+    font-size: 32px;
+}
+
+.main__intro {
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 400px;
+}
+
+.main__text {
+    font-size: 16px;
+    line-height: 1.3em;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.community {
+    width: 550px;
+    display: block;
+    margin: 100px auto 0;
+}
+.icons__item {
+    margin-right: 40px;
+}
+
+/*second screen*/
+.topic {
+    background: #534884;
+}
+
+.topic__title__main {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    color: #ddddc9;
+}
+
+.topic__item {
+    margin-bottom: 50px;
+}
+
+.topic__item__icon {
+    font-size: 80px;
+    text-align: center;
+}
+
+.topic__item__icon a {
+    color: #ff7000;
+    transition: all 0.5s ease;
+}
+
+.topic__item__icon a:hover {
+    text-decoration: none;
+    color: #332c50;
+}
+
+.topic__item__block {
+    text-align: center;
+}
+
+.topic__item__title {
+    font-weight: 400;
+    color: #ddddc9;
+}
+/*second screen */
+.title{
+    padding-top:100px;
+    padding-bottom: 80px;
+    font-size:40px;
+    text-align: center;
+}
+
+.title__main{
+    font-size: 30px;
+}
+
+.title__text{
+    font-size: 20px;
+    font-weight: 300;
+    width: 800px;
+    margin: 0 auto;
+}
+.feature{
+    margin-bottom: 70px;
+    text-align:center;
+    width:100%;
+
+}
+.feature__icon {
+    margin-right:30px;
+}
+
+.feature__text{
+    color: #3d3d3d;
+}
+/* Footer */
+
+
+.footer{
+    background: #1f1d21;
+    padding: 50px 50px;
+}
+.credits{
+    color:white;
+    font-size: 16px;
+    text-align:center;
+    padding-top: 50px;
+    width: 150px;
+    margin:0 auto;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+}
+
+.tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #fff;
+}
+
+.tg th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width:767px){
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .main {
+        text-align: center;
+    }
+    .main__intro {
+        width: auto;
+    }
+    .main__text {
+        width: auto;
+    }
+    .title{
+        width: auto;
+    }
+    .title__main{
+        width: auto;
+    }
+    .feature__block{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:991px){
+    .community {
+        width: 100%;
+        display: block;
+        margin: 50px auto 0;
+    }
+    .feature__block{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:424px){
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu__item {
+        margin-bottom: 10px;
+    }
+    .title{
+        width: auto;
+    }
+    .title__main{
+        width: auto;
+    }
+    .feature__block{
+        width: auto;
+    }
+}
